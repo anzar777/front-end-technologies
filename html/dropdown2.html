@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .span {
+            height: 30px;
+            width: 70px;
+            background-color: tomato;
+            padding: 20px;
+            box-shadow: 1px 3px 7px;
+            display: none;
+        }
+
+        .div:hover .span {
+            display: block;
+        }
+
+        .hover {
+            display: none;
+        }
+
+        .image3:hover .hover {
+            display: block;
+        }
+
+        .image2 {
+            display: none;
+        }
+
+        .document:hover .image2 {
+            display: block;
+        }
+        .constitution{
+            height: 40px;
+            width: 200px;
+            background-color: crimson;
+            margin-left: 30px;
+            box-shadow: 3px 5px 7px;
+            display: none;
+        }
+        .file:hover .constitution{
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div">
+        here is the class room
+        <div class="span">
+            <span>let's go</span>
+        </div>
+    </div>
+
+    <div class="image3">
+        <img src="/images/—Pngtree—butterfly_121554.png" alt="" height="200px">
+        <div class="hover">
+            <span><img src="/images/POLITICS.jpg" alt=""></span>
+        </div>
+    </div>
+    <div class="document">
+        <img src="/images/student.jpg" alt="">
+        <div class="image2">
+            <span><img src="/images/fruits.jpg" alt=""></span>
+        </div>
+    </div>
+
+    <div class="file">
+        we the people of india
+        <div class="constitution">
+            <span>indian constitution</span>
+        </div>
+    </div>
+</body>
+
+</html>
