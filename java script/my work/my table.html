@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .table{
+        height: 500px;
+        width: 40%;
+        border: 3px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        text-transform: uppercase;
+        padding:20px ;
+        padding-left: 200px;
+        padding-top: 50px;
+        background-color: lemonchiffon;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h1{
+        padding-left: 150px;
+        padding-bottom: 20px;
+        text-decoration: underline;
+        color: lightcoral;
+       }
+    
+    #firstname{
+        padding: 5px;
+        margin-left: 30px;
+        border-radius: 5px;
+        width: 200px;
+    }
+    #lastname{
+        padding: 5px;
+        margin-left: 30px;
+        border-radius: 5px;
+        width: 200px;
+    }
+    #dob{
+        padding: 5px;
+        margin-left: 30px;
+        border-radius: 5px;
+        width: 200px;
+    }
+    #email{
+        padding: 5px;
+        margin-left: 30px;
+        border-radius: 5px;
+        width: 200px;
+    }
+    #phone{
+        padding: 5px;
+        margin-left: 30px;
+        border-radius: 5px;
+        width: 200px;
+    }
+    #address{
+        padding: 5px;
+        margin-left: 30px;
+        border-radius: 5px;
+        width: 200px;
+    }
+    #city{
+        padding: 5px;
+        margin-left: 30px;
+        border-radius: 5px;
+        width: 200px;
+    }
+    #state{
+        padding: 5px;
+        margin-left: 30px;
+        border-radius: 5px;
+        width: 200px;
+    }
+    #pin{
+        padding: 5px;
+        margin-left: 30px;
+        border-radius: 5px;
+        width: 200px;
+    }
+    button{
+        height: 40px;
+        width: 200px;
+        border-radius: 10px;
+        font-size: larger;
+        background-color: brown;
+        color: cornsilk;
+        cursor: pointer;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+</style>
+
+<body>
+    <div class="table">
+                  <h1>form</h1>
+        <table>
+            <tr>
+                <td>
+                    <label for="firstname" >first name</label> </td>
+                <td>
+                    <input type="text" name=""  id="firstname" placeholder="enter your first name here">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="lastname">last name</label></td>
+                <td><input type="text" id="lastname"></td>
+            </tr>
+            <tr>
+                <td><label for="dob">date of birth</label></td>
+                <td><input type="date" id="dob"></td>
+            </tr>
+            <tr>
+                <td><label for="email">email</label></td>
+                <td><input type="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="phone">phone</label></td>
+                <td><input type="number" id="phone"></td>
+            </tr>
+            <tr>
+                <td><label for="address">address</label></td>
+                <td><input type="text" id="address"></td>
+            </tr>
+            <tr>
+                <td><label for="city">city</label></td>
+                <td><input type="text" id="city"></td>
+            </tr>
+            <tr>
+                <td><label for="state">state</label> </td>
+                <td><input type="text" id="state"></td>
+            </tr>
+            <tr>
+                <td><label for="pincode">pincode</label></td>
+                <td><input type="number" id="pin"></td>
+            </tr>
+        </table>
+        <button onclick="PrintAll()">print</button>
+    <div id="first"></div>
+    <div id="last"></div>
+    <div id="birth"></div>
+    <div id="gmail"></div>
+    <div id="call"></div>
+    <div id="adress"></div>
+    <div id="place"></div>
+    <div id="sta"></div>
+    <div id="code"></div>
+    </div>
+    <script src="mytable.js">
+    </script>
+</body>
+
+</html>
