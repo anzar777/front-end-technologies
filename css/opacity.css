@@ -1,0 +1,48 @@
+.flower:hover{
+    opacity:0.5;
+}
+.leaf{
+    opacity: 0.5;
+}
+.leaf:hover{
+    opacity: 1;
+}
+h1{
+    text-transform: uppercase;
+}
+.background{
+    height: 400px;
+    width: 70%;
+    border: 2px solid;
+    margin: auto;
+    background-image: url(/images/smiley.jpg);
+
+}
+.para{
+    padding: 50px;
+    height: 200px;
+    width: 50%;
+    border: 1px solid;
+    margin: auto;
+    margin-top: 40px;
+    background: transparent;
+    
+}
+.solid{
+    height: 400px;
+    width: 70%;
+    border: 2px solid black;
+    padding-top: 150px;
+    background-image: url(/images/flower.jpg);
+    background-repeat: initial;
+    
+}
+.head{
+    height: 200px;
+    width: 70%;
+    border: 2px solid black;
+    margin: auto;
+    opacity: 0.5;
+    background-color: lawngreen;
+    
+}

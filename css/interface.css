@@ -1,0 +1,29 @@
+div{
+    border:2px solid;
+    margin: 40px;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.box1{
+ resize: horizontal;
+ overflow:auto ;
+ outline: 2px solid blue;
+ outline-offset:10px ;
+}
+.box2{
+    resize: vertical;
+    overflow: auto;
+    outline: 2px dotted red;
+    outline-offset: 10px;
+}
+.box3{
+    resize: both;
+    overflow: auto;
+}
+.box4{
+    resize: none;
+    overflow: auto;
+}

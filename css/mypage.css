@@ -1,0 +1,108 @@
+.mypage {
+    height: 100vh;
+    width: 100%;
+    border: 1px solid;
+}
+
+nav {
+    height: 30px;
+    width: 100%;
+    border: 1px solid;
+
+}
+
+img {
+    float: left;
+}
+
+h1 {
+    position: relative;
+    bottom: 20px;
+}
+
+ul {
+    display: flex;
+
+}
+
+ul li {
+    display: inline;
+    position: relative;
+    left:750px;
+    padding-left: 20px;
+    bottom: 60px;
+    text-transform: uppercase;
+    font-size: small;
+}
+.head{
+    height: 50vh;
+    width: 100%;
+    border: 1px solid;
+    padding-top: 40px;
+    padding-left: 100px;
+    background-image:url(/images/student.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head p{
+    opacity: 0.5;
+}
+.head button{
+    background-color: orangered;
+    border-style: ridge;
+    width: 100px;
+    padding: 10px;
+}
+.details1{
+    height: 170px;
+    width: 20%;
+    border: 1px solid;
+    margin-left: 20px;
+    position: relative;
+    bottom: 50px;
+    text-transform: capitalize;
+    
+}
+.details1 p{
+opacity: 0.5;
+}
+.details2 p{
+    opacity: 0.5;
+}
+.details3 p{
+    opacity: 0.5;
+}
+ h2{
+    text-align: center;
+}
+b{
+    padding-left: 100px;
+    position: relative;
+    top: 10px;
+}
+.details2{
+    height: 170px;
+    width: 20%;
+    border: 1px solid;
+    margin-left: 400px;
+    position: relative;
+    bottom: 220px;
+    text-transform: capitalize;
+}
+.details3{
+    height: 170px;
+    width: 20%;
+    border: 1px solid;
+    margin-left: 800px;
+    position: relative;
+    bottom: 390px;
+    text-transform: capitalize;
+}
+.ending{
+    text-align: center;
+    position: relative;
+    bottom:350px ;
+}
+.ending b{
+    font-size: xx-large;
+}

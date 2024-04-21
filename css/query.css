@@ -1,0 +1,9 @@
+body{
+    border: 2px solid black;
+    background-color: blueviolet;
+}
+@media screen and (max-width:500px){
+    body{
+        background-color: greenyellow;
+    }
+}

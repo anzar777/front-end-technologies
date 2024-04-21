@@ -1,0 +1,26 @@
+.div1{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border: 20px solid rgba(151, 16, 168, 0.76);
+    border-image: url(/images/border.png) 30 round;
+}
+.div3{
+    height: 300px;
+    width: 70%;
+    text-transform: capitalize;
+    background-image:url(/images/—Pngtree—butterfly_121554.png),url(/images/plain\ image.jpg) ;
+    background-size: 200px;
+    background-repeat: no-repeat, repeat;
+    background-position: right bottom,left top;
+}
+.div2{
+    height: 300px;
+    width: 70%; 
+    text-transform: capitalize;
+    padding:10px;
+    margin-top: 20px;
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

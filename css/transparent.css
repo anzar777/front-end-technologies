@@ -1,0 +1,24 @@
+.div1{
+   background-image: url(/images/leaf.jpg);
+   text-align: center;
+   background-size: cover;
+    height: 200px;
+    width: 300px;
+    border: 1px solid rgb(34, 27, 27);
+    margin: auto;
+    color: seashell;
+    background-repeat: no-repeat;
+    background-color: transparent;
+} 
+.div2{
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    color:olive ;
+    border:10px solid currentColor ; 
+}
+span{
+    border: 1px solid black ;
+}

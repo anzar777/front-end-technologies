@@ -1,0 +1,86 @@
+h1{
+    text-align: center;
+    height: 40px;
+    width: 90%;
+    border: groove;
+    margin: auto;
+    text-transform: uppercase;
+    margin-top: 20px;
+    background-color: darkorange;
+}
+.container{
+    margin-left: 50px;
+    height: 500px;
+    width: 50%;
+    border:groove ;
+    background-color: darkred;
+}
+.icons{
+    padding-top: 20px;
+    text-align: center;
+    
+}
+.social-media1{
+    text-indent: 60px;
+    font-size: xx-large;
+    word-spacing: 20px;
+    height: 40px;
+    width: 80%;
+    border:groove;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkmagenta;
+}
+.social-media2{
+    text-indent: 60px;
+    font-size: xx-large;
+    word-spacing: 20px;
+    height: 40px;
+    width: 80%;
+    border:groove;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkgray;
+
+}
+.social-media3{
+    text-indent: 60px;
+    font-size: xx-large;
+    word-spacing: 20px;
+    height: 40px;
+    width: 80%;
+    border:groove;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkblue;
+}
+.social-media4{
+    text-indent: 60px;
+    font-size: xx-large;
+    word-spacing: 20px;
+    height: 40px;
+    width: 80%;
+    border:groove;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: brown;
+}
+.social-media5{
+    text-indent: 60px;
+    font-size: xx-large;
+    word-spacing: 20px;
+    height: 40px;
+    width: 80%;
+    border:groove;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: brown;
+}
+.bi-instagram{
+    color: deeppink;
+}

@@ -1,0 +1,14 @@
+.news {
+    border: 3px solid ;
+    padding: 10px;
+    column-count: 5;
+    column-gap: 40px;
+    column-rule:3px solid gold;
+}
+h1{
+    column-span: all;
+    text-align: center;
+    padding: 50px;
+    background-color: gray;
+    text-transform: uppercase;
+}

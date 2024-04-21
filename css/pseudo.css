@@ -1,0 +1,68 @@
+/* p:hover{
+  color: red; 
+}
+p b:first-child{
+    color: lawngreen;
+}
+p:first-child{
+    color: rgb(238, 42, 8);
+} */
+p {
+  text-transform: capitalize;
+  font-size: 30px;
+}
+
+.first-line::first-line {
+  color: rgb(255, 115, 0);
+  font-size: xx-large;
+}
+
+.first-letter::first-letter {
+  color: red;
+  font-size: 40px;
+}
+
+h1::before {
+  content: url(/images/50.png);
+}
+
+h2::after {
+  content: url(/images/small\ image.png);
+}
+ul ::marker{
+  color: darkgoldenrod;
+  font-size: xx-large;
+}
+ol ::marker{
+  color: rgb(255, 51, 0);
+  font-size: xx-large;
+}
+.color::selection{
+  color: blueviolet;
+}
+.image1{
+  opacity:0.5 ;
+}
+.image1:hover{
+  opacity: 1;
+}
+.image2{
+  opacity: 1;
+}
+.image2:hover{
+  opacity: 0.2;
+}
+.background{
+  height: 500px;
+  width: 78%;
+  margin: auto;
+  margin-top:30px ;
+  border: groove;
+  background-image: url(/images/fruits.jpg)
+}
+.opacity-text{
+  background-color: crimson;
+  margin-top:100px ;
+  color: violet;
+
+}

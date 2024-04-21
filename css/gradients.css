@@ -1,0 +1,20 @@
+.grad1{
+height: 300px;
+width: 70%;
+border: 1px solid;
+background-image: linear-gradient(to right, red, blue,pink,yellow,green );
+}
+.grad2{
+    height: 300px;
+    width: 70%;
+    border: 1px solid;
+    margin-top:20px;
+    background-image: radial-gradient(red,blue,yellow);
+}
+.grad3{
+    height: 300px;
+    width: 70%;
+    border: 1px solid;
+    margin-top:20px;
+    background-image: conic-gradient(red,blue,yellow);
+}

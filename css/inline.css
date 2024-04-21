@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+} 
+
+
+.tree{
+    text-align: center;
+    height: 400px;
+    width: 70%;
+    border:2px solid ;
+    margin: auto;
+}
+.tree h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.tree img{
+    display: block;
+    margin: auto;
+}
+.fruits{
+    
+    text-align: center;
+    height: 400px;
+    width: 70%;
+    border:2px solid ;
+    margin: auto;
+     margin-top: 20px;
+}
+.fruits img{
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+.fruits h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.text > p{
+    color: gold;
+}
+.text2 + p{
+    background-color: greenyellow;
+}.text3 ~p{
+    background-color: hotpink;
+
+}
+.text3:first-child{
+    color:red;
+}
+
+
+
+
+    

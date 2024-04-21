@@ -1,0 +1,79 @@
+.header{
+    height: 80px;
+    width: 100%;
+    border: groove;
+    text-align: center;
+    text-transform: capitalize; 
+}
+img{
+    float: left;
+    position: relative;
+    top: 15px;
+    left: 50px;
+}
+.nav{
+    height: 30px;
+    width: 100%;
+    border: groove;
+    margin-top: 10px;
+    text-indent: 20px;
+    word-spacing: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav a:hover{
+    color: greenyellow;
+}
+.colomn1{
+    height: 300px;
+    width: 30%;
+    border: groove;
+    text-align: center;
+    margin-top: 10px;
+    text-transform: capitalize;
+    background-image: url(/images/apple.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.colomn2{
+    height: 300px;
+    width: 30%;
+    border: groove;
+    text-align: center;
+    margin-top: 10px;
+    text-transform: capitalize;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 315px;
+    background-image: url(/images/blue\ berry.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.colomn3{
+    height: 300px;
+    width: 30%;
+    border: groove;
+    text-align: center;
+    margin-top: 10px;
+    text-transform: capitalize;
+    margin-left: auto;
+    position: relative;
+    bottom: 630px;
+    background-image: url(/images/banana.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer{
+    height:50px ;
+    width: 100%;
+    border: groove;
+    margin-top: 10px;
+    position: relative;
+    bottom: 630px;
+    font-size: 40px;
+    text-align: center;
+}

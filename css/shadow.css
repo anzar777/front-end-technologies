@@ -1,0 +1,14 @@
+div{
+    height: 300px;
+    width: 70%;
+    position: relative;
+    top: 30px;
+    margin: auto;
+    border: solid;
+    text-align: center;
+    box-shadow:10px 5px 10px red ;
+}
+div h1{
+    color: rgb(219, 158, 45);
+    text-shadow:1px 3px 7px;
+}

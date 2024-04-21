@@ -1,0 +1,8 @@
+.gallery{
+    height: 30vh;
+    width: 20%;
+    border: groove;
+}
+.gallery:hover {
+    border-color: chartreuse;
+}

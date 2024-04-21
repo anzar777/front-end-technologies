@@ -1,0 +1,19 @@
+.page{
+    display: inline-block;
+}
+.page a{
+    text-decoration: none;
+    font-size: 40px;
+    border: 1px solid;
+    margin: 20px;
+    padding:7px 10px ;
+    color: black;
+    float: left;
+}
+a.active{
+    background-color: green;
+    color: white;
+}
+.page a:hover:not(.active){
+    background-color: #ddd;
+}
