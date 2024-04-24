@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="first" type="number">
+    <input type="second" name="" id="second">
+    <button id="click">click me</button>
+    <div id="result"></div>
+    <script>
+        var button=document.getElementById("click")
+                        
+        button=document.addEventListener("click",add)
+        button=document.addEventListener("dblclick",sub)
+        button=document.addEventListener("mouseout" ,aler)
+    
+    function add(){
+        var one=parseInt(document.getElementById("first").value)
+        var two=parseInt( document.getElementById("second").value)
+        var final=one+two
+        document.getElementById("result").innerHTML=final+" addition"
+        }
+    function sub(){
+        var one=parseInt(document.getElementById("first").value)
+        var two=parseInt(document.getElementById("second").value)
+        var final=one-two
+        document.getElementById("result").innerHTML=final+" subtraction"
+    }
+    function aler(){
+        alert("welcome")
+    }
+    
+    </script>
+</body>
+</html>
